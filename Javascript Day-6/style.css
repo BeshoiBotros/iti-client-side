@@ -1,0 +1,39 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+border-collapse: collapse;
+width: 70%;
+margin: auto;
+}
+thead th {
+  border-bottom: 2px solid black;
+  text-align: left;
+  padding: 8px;
+}
+.sort-icon {
+  font-size: 0.6em;
+  margin-left: 6px;
+  color: gray;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 4px;
+}
+
+.sort-icon:hover{
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(241, 241, 241);
+}
+
+tbody tr:last-child {
+  border-bottom: 2px solid black;
+}
+tbody tr td{
+    padding: 8px;
+}
+form{
+    margin:50px;
+}
